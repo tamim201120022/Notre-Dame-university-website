@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+.image-notices{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("images/notice.jpg");
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.allnotices{
+    background-color: #e6ffcc;
+}

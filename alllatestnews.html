@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LatestNews</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--Bootstrap css starts-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Bootstrap css ends-->
+
+    <!--Link of CSS file starts-->
+    <link rel="stylesheet" href="index.css">
+    <!--Link of CSS file ends-->
+
+    <!--Aos link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--Aos link-->
+</head>
+
+<body>
+    <!--Starting navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.php"><img style="width: 300px;" src="images/NDUB-Logo-name-ver4-with-slogan.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav styling">
+              <li class="nav-item p-1 btn rounded btn-outline-primary">
+                <a class="nav-link active text-white" href="#">Home</a>
+              </li>
+
+              <!--About dropdown starts-->
+              <li class="nav-item dropdown p-1 rounded btn-outline-primary">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">About</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">About</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">History</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Mission, Vission & Objectives</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Leadership</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Departments</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Programs</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Directory</a></li>
+                  <li><a class="dropdown-item text-black" href="#">Contact</a></li>
+                </ul>
+              </li>
+              <!--About dropdown ends-->
+              
+              <!--About dropdown starts-->
+              <li class="nav-item dropdown p-1 rounded btn-outline-primary">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Admission & Aid</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Admission Info</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Undergraduate Admission</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Graduate Admission</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Grading Policy</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="combinedRoutine.html" target="_blank">Combined Routine</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Financial Aid & Scholarships</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Admission FAQs</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="admission.html" target="_blank">Apply Online</a></li>
+                  <li><a class="dropdown-item text-black" href="#">Tution Fees</a></li>
+                </ul>
+              </li>
+              <!--About dropdown ends-->
+
+              <!--About dropdown starts-->
+              <li class="nav-item dropdown p-1 rounded btn-outline-primary">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Research</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Academic Overview</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Undergraduate Programs</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Graduate Programs</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Examinations</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Accreditation</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Library</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Academic Calender</a></li>
+                  <li><a class="dropdown-item text-black" href="#">Academic Policy</a></li>
+                </ul>
+              </li>
+              <!--About dropdown ends-->
+
+              <!--About dropdown starts-->
+              <li class="nav-item dropdown p-1 rounded btn-outline-primary">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Campus Life</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Campus Life Overview</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Club Activities</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Code of Conducts</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Campus Job</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Accreditation</a></li>
+                  <li><a class="dropdown-item dropdown-style text-black" href="#">Future Students</a></li>
+                  <li><a class="dropdown-item text-black" href="#">Sports</a></li>
+                </ul>
+              </li>
+              <!--About dropdown ends-->
+
+              <!--Notice, News & Std portal starts--> 
+              <li class="nav-item p-1 rounded btn-outline-primary">
+                <a class="nav-link text-white" href="#">Notice</a>
+              </li>
+
+              <li class="nav-item p-1 rounded btn-outline-primary">
+                <a class="nav-link text-white" href="#">Events</a>
+              </li>
+
+              <li class="nav-item p-1 rounded btn-outline-primary">
+                <a class="nav-link text-white" href="#">Student Portal</a>
+              </li>
+              <!--Notice, News & Std portal ends-->
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success text-white" type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <!--ending navbar-->
+
+      <!--Latest News Start-->
+    <div class="latest-news" style="margin-top: 90px; margin-bottom: 20px; background-color: #ff8080;">
+        <h1 style="text-align: center; padding: 20px;">Latest News</h1>
+      
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4" data-aos="zoom-out">
+              <div class="card my-2">
+                <img src="images/287655229_1859171174277658_3710626419946554474_n.jpg" alt="">
+                <div class="card-header"><i class="fa-2x fa fa-calendar-check" style="color: black;"></i> <h3 style="display: inline-block;"> 30 June, 2022</h3></div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">NDUB Drama and Film Club's workshop on Basics of Performance Art.</h5>
+                  
+                  <a href="event1.html" target="_blank" class="btn btn-primary">Click Here</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-4" data-aos="zoom-out">
+              <div class="card my-2">
+                <img src="images/NDUB-1.jpeg" alt="">
+                <div class="card-header"><i class="fa-2x fa fa-calendar-check" style="color: black;"></i> <h3 style="display: inline-block;"> 26 June, 2022</h3></div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">NDUB holds second workshop on OBE curriculum.</h5>
+                  
+                  <a href="event2.html" target="_blank" class="btn btn-primary">Click Here</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-4" data-aos="zoom-out">
+              <div class="card my-2">
+                <img src="images/20220606_131252.jpg" alt="" >
+                <div class="card-header"><i class="fa-2x fa fa-calendar-check" style="color: black;"></i> <h3 style="display: inline-block;"> 7 June, 2022</h3></div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">NDUBCC Organizes Workshop on Basic and Advance Networking with Mikrotik Router.</h5>
+                  
+                  <a href="event3.html" target="_blank" class="btn btn-primary">Click Here</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="zoom-out">
+              <div class="card my-2">
+                <img src="images/NDUB-1.jpeg" alt="">
+                <div class="card-header"><i class="fa-2x fa fa-calendar-check" style="color: black;"></i> <h3 style="display: inline-block;"> 26 June, 2022</h3></div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">NDUB holds second workshop on OBE curriculum.</h5>
+                  
+                  <a href="event2.html" target="_blank" class="btn btn-primary">Click Here</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="zoom-out">
+              <div class="card my-2">
+                <img src="images/NDUB-1.jpeg" alt="">
+                <div class="card-header"><i class="fa-2x fa fa-calendar-check" style="color: black;"></i> <h3 style="display: inline-block;"> 26 June, 2022</h3></div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">NDUB holds second workshop on OBE curriculum.</h5>
+                  
+                  <a href="event2.html" target="_blank" class="btn btn-primary">Click Here</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="zoom-out">
+              <div class="card my-2">
+                <img src="images/NDUB-1.jpeg" alt="">
+                <div class="card-header"><i class="fa-2x fa fa-calendar-check" style="color: black;"></i> <h3 style="display: inline-block;"> 26 June, 2022</h3></div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">NDUB holds second workshop on OBE curriculum.</h5>
+                  
+                  <a href="event2.html" target="_blank" class="btn btn-primary">Click Here</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="zoom-out">
+              <div class="card my-2">
+                <img src="images/NDUB-1.jpeg" alt="">
+                <div class="card-header"><i class="fa-2x fa fa-calendar-check" style="color: black;"></i> <h3 style="display: inline-block;"> 26 June, 2022</h3></div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">NDUB holds second workshop on OBE curriculum.</h5>
+                  
+                  <a href="event2.html" target="_blank" class="btn btn-primary">Click Here</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="zoom-out">
+              <div class="card my-2">
+                <img src="images/NDUB-1.jpeg" alt="">
+                <div class="card-header"><i class="fa-2x fa fa-calendar-check" style="color: black;"></i> <h3 style="display: inline-block;"> 26 June, 2022</h3></div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">NDUB holds second workshop on OBE curriculum.</h5>
+                  
+                  <a href="event2.html" target="_blank" class="btn btn-primary">Click Here</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="zoom-out">
+              <div class="card my-2">
+                <img src="images/NDUB-1.jpeg" alt="">
+                <div class="card-header"><i class="fa-2x fa fa-calendar-check" style="color: black;"></i> <h3 style="display: inline-block;"> 26 June, 2022</h3></div>
+                
+                <div class="card-body">
+                  <h5 class="card-title">NDUB holds second workshop on OBE curriculum.</h5>
+                  
+                  <a href="event2.html" target="_blank" class="btn btn-primary">Click Here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+  <!--Latest News end-->
+
+  <!--Bootstrap javaScript starts-->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <!--Bootstrap java ends-->
+
+    <!--Aos javaScript-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!--Aos javaScript-->
+
+</body>
+</html>

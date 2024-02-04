@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+.text-box{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+.text-box h4{
+    letter-spacing: 20px;
+    line-height: 50px;
+}
+
+
+
+
+/*footer start*/
+/*Email Style starts*/
+.email-style{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    transition: all 300ms ease;
+}
+.email-style:hover{
+    color: crimson;
+    font-size: 23px;
+}
+/*Email Style ends*/
+
+/*About section starts*/
+.link-style ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 300ms ease;
+}
+.link-style ul li a:hover{
+    margin-left: 1rem;
+}
+/*About section ends*/
+
+/*follow icon section starts*/
+.follow .icon a{
+    transition: all 300ms ease;
+}
+.follow .icon a:hover{
+    font-size: 20px;
+}
+/*follow icon section ends*/
+/*footer end*/
